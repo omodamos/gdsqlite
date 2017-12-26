@@ -16,7 +16,7 @@ int SQLite::open(String path) {
 		}
 	}
 	else if (path.begins_with("user://")) {
-		String data_dir=OS::get_singleton()->get_data_dir();
+		String data_dir=OS::get_singleton()->get_user_data_dir();
 		if (data_dir != "") path = path.replace("user:/",data_dir);
 		else path = path.replace("user://", "");
 	}
