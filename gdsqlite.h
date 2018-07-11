@@ -6,7 +6,7 @@
 #include "ustring.h"
 
 #include "map.h"
-#include "sqlite/sqlite3.h"
+#include "sqlite/sqleet.h"
 
 class SQLite : public Reference {
 	GDCLASS(SQLite,Reference);
