@@ -1,8 +1,8 @@
 /* gdsqlite.cpp */
 
 #include "gdsqlite.h"
-#include "project_settings.h"
-#include "os/os.h"
+#include "core/project_settings.h"
+#include "core/os/os.h"
 
 SQLite::SQLite() {
 }
